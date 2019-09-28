@@ -136,3 +136,6 @@
 
 # Usb hal
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.sanders       u:object_r:hal_usb_default_exec:s0
+
+# files in firmware
+/firmware(/.*)?         u:object_r:firmware_file:s0
