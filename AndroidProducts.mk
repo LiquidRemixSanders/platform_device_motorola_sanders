@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lluvia_sanders.mk
+	$(LOCAL_DIR)/ion_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	lluvia_sanders-userdebug
+	ion_sanders-userdebug
