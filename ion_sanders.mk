@@ -57,3 +57,7 @@ $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 # ion maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ion.maintainer=Syed Sajid
+
+# ion Official
+ION_BUILD_TYPE := OFFICIAL
+ION_RELEASE_TYPE := Releae
